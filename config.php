@@ -1,4 +1,8 @@
 <?php
+// CORS headers for all API responses
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: Content-Type");
+
 $servername = "localhost";
 $username = "u121643321_nada_aboelenin";
 $password = "8ztZvsHtFr!A6t7";
